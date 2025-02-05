@@ -1,6 +1,6 @@
 // Функція дял виводу задачі на сторінку
 export function viewTaskItem(task) {
-  const htmlTask = `<li>${task}<button class="delete">✖</button></li>`;
+  const htmlTask = `<li>${task.name}<button class="delete">✖</button></li>`;
   return (task) ? htmlTask : '';
 }
 
